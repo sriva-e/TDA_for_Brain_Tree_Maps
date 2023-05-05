@@ -37,8 +37,8 @@ takes: </br>
       --Normal-FLASH-Brain.mha &ensp;   =     &ensp;        -- angio_N4bfc_brain_mask.nii.gz (loacted in sub folders in N4_bias_field_corrected folder) <br/>
 
 Output<br/>
-   &nbsp;    -- MRA-ISo.mha   (can save these outputs by image names for each case)<br/>                      
-            -- MRT1-Iso.mha<br/>
+   &nbsp;    -- MRA-ISo.mha <br/>                      
+   &nbsp;    -- MRT1-Iso.mha<br/>
    &nbsp;   -- MRA-Brain.mha<br/>
    &nbsp;   -- MRT1-Brain.mha<br/>
 

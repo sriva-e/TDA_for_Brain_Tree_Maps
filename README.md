@@ -15,7 +15,7 @@ DATASET: Lausanne_TOF-MRA_Aneurysm_Cohort(https://openneuro.org/datasets/ds00394
           &emsp;  --ses folders<br/>
            &emsp;   -- anat folders
                 &emsp; --angio_N4bfc_brain_mask.nii.gz<br/>
-                &emsp;   ---angio_N4bfc_mask.nii.gz<br/>
+                &emsp; --angio_N4bfc_mask.nii.gz<br/>
             &nbsp;--manual_masks</br>
           &nbsp; --registrations<br/>
 (outside derivates and code we have sub folders)<br/>
@@ -36,7 +36,7 @@ takes -- mra.mha    &emsp              =     &emsp        -- _N4_bfc_mask.nii.gz
       --Normal-FLASH-Brain.mha &ensp;   =     &ensp;        -- angio_N4bfc_brain_mask.nii.gz (loacted in sub folders in N4_bias_field_corrected folder) <br/>
 Output<br/>
   &nbsp;    -- MRA-ISo.mha     #can save these outputs by image names for each case   <br/>                      
-  &nbsp;    -- MRT1-Iso.mha<br/>
+            -- MRT1-Iso.mha<br/>
    &nbsp;   -- MRA-Brain.mha<br/>
    &nbsp;   -- MRT1-Brain.mha<br/>
 

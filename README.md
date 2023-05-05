@@ -10,14 +10,14 @@ Notes on data preprocessing pipeline are as follows
 DATASET: Lausanne_TOF-MRA_Aneurysm_Cohort(https://openneuro.org/datasets/ds003949/versions/1.0.1) <br />
          --code<br />
          --derivatives<br />
-          &nbsp; --N4_bias_field_corrected (files are located in anat folder which is inside ses folder which is inside sub folder)
-          &ensp;  --sub folders
-          &emsp;  --ses folders
-             -- anat folders
-               &nbsp; + space +space +space+space      -- -angio_N4bfc_brain_mask.nii.gz
-                 &nbsp; + space +space +space +space     -- -angio_N4bfc_mask.nii.gz
-         &nbsp; + space   --manual_masks
-          &nbsp; + space  --registrations
+          &nbsp; --N4_bias_field_corrected (files are located in anat folder which is inside ses folder which is inside sub folder)<br/>
+          &ensp;  --sub folders<br/>
+          &emsp;  --ses folders<br/>
+           &emsp   -- anat folders
+                -- -angio_N4bfc_brain_mask.nii.gz<br/>
+                   -- -angio_N4bfc_mask.nii.gz<br/>
+            &nbsp;--manual_masks</br>
+          &nbsp; --registrations<br/>
 (outside derivates and code we have sub folders)
          --sub folders (files are located in anat folder which is inside ses folder which is inside sub folder)
             --ses folders

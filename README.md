@@ -36,6 +36,7 @@ takes: <br/>
       --Normal-FLASH.mha     &ensp;     =    &ensp;         -- _ angio.nii.gz file (loacted in sub folders outside code and derivatives folder) __|<br/>
       --Normal-FLASH-Brain.mha &ensp;   =     &ensp;        -- angio_N4bfc_brain_mask.nii.gz (loacted in sub folders in N4_bias_field_corrected folder) <br/>
 
+
 Output<br/>
    &nbsp;    -- MRA-ISo.mha<br/>                      
    &nbsp;    -- MRT1-Iso.mha<br/>

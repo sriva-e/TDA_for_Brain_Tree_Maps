@@ -31,7 +31,7 @@ Segment Brain from MRIs<br/>
                      &emsp;   &emsp; Input in our program<br/>
                                   &emsp;              (these images need to be in .mha format)<br/>
 takes: </br>
-       -- mra.mha    &emsp              =     &emsp        -- _N4_bfc_mask.nii.gz file  (loacted in sub folders of N4_bfc)                       |      <br/> 
+       -- mra.mha    &ensp;              =     &ensp;        -- _N4_bfc_mask.nii.gz file  (loacted in sub folders of N4_bfc)                       |      <br/> 
        --mri_t1_sag.mha     &ensp;       =     &ensp;        -- _T1w.nii.gz file  (loacted in sub folders outside code and derivatives folder)     | <br/>
       --Normal-FLASH.mha     &ensp;     =    &ensp;         -- _ angio.nii.gz file (loacted in sub folders outside code and derivatives folder) __|<br/>
       --Normal-FLASH-Brain.mha &ensp;   =     &ensp;        -- angio_N4bfc_brain_mask.nii.gz (loacted in sub folders in N4_bias_field_corrected folder) <br/>
@@ -45,19 +45,21 @@ Output<br/>
 
 Compute Vessel Probability Image From Brain MRIs<br/>
 Input in the program: (Input in this program is the output we got from running Segment Brain from MRIs)<br/>
- takes &nbsp;  --MRA-Iso.mha<br/>
+ takes: <br/>
+     &nbsp;  --MRA-Iso.mha<br/>
      &nbsp;    --MRA-Brain.mha<br/>
-      &nbsp;   --MRT1-Iso.mha<br/>
-       &nbsp;  --MRT1-Brain.mha<br/>
+     &nbsp;   --MRT1-Iso.mha<br/>
+     &nbsp;  --MRT1-Brain.mha<br/>
 Output<br/>
     &nbsp;    --MRA-VesselEnhanced.mha<br/>
-     &nbsp;   --MRA-Brain-VesselEnhanced.mha<br/>
+    &nbsp;   --MRA-Brain-VesselEnhanced.mha<br/>
 
 Segment Vessels Using Vessel Probability Image(This is the file that does segmentation)<br/>
 
 Input in the program:(Input in this program is the output we got from running Compute Vessel Probability Image From Brain MRIs)<br/>
- takes: &nbsp; --MRA-VesselEnhanced.mha<br/>
-         &nbsp;--MRA-Brain-VesselEnhanced.mha<br/>
+ takes:</br>
+ &nbsp; --MRA-VesselEnhanced.mha<br/>
+ &nbsp;--MRA-Brain-VesselEnhanced.mha<br/>
 output: <br/>
-       --MRA-vessels.tre (Important # this .tre file is the one we will be using for TDA)<br/>
+ &nbsp; --MRA-vessels.tre (Important # this .tre file is the one we will be using for TDA)<br/>
  

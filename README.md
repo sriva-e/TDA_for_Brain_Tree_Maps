@@ -64,3 +64,7 @@ Input in the program:(Input in this program is the output we got from running Co
 output: <br/>
  &nbsp; --MRA-vessels.tre (Important # this .tre file is the one we will be using for TDA)<br/>
  
+ This is what the final output will look like: <br/>
+ ![alt text](https://github.com/sriva-e/TDA_for_Brain_Tree_Maps/blob/main/segmented_vessels.png)
+ 
+ 

@@ -3,13 +3,13 @@ Topological Data Analysis of Brain(Patient vs control)
 
 This project is dedicated to investigate if topology can help us better understand the brain tree maps, 
 the project is divided in two pipelines 
---Data preprocessing (vessel segmentation)
---TDA pipeline(future work)
+--Data preprocessing (vessel segmentation)<br />
+--TDA pipeline(future work)<br />
 
 Notes on data preprocessing pipeline are as follows 
 DATASET: Lausanne_TOF-MRA_Aneurysm_Cohort(https://openneuro.org/datasets/ds003949/versions/1.0.1) 
-         --code
-         --derivatives
+         --code<br />
+         --derivatives<br />
              --N4_bias_field_corrected (files are located in anat folder which is inside ses folder which is inside sub folder)
                 --sub folders
                   --ses folders

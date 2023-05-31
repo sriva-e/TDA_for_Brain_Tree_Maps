@@ -72,3 +72,20 @@ output: <br/>
 ![alt text](https://github.com/sriva-e/TDA_for_Brain_Tree_Maps/blob/main/Persistence%20diagram.png)
  
  
+ REFERENCES:<br />
+https://geometry.stanford.edu/papers/zc-cph-05/zc-cph-05.pdf <br />
+https://towardsdatascience.com/exploring-brain-artery-trees-with-giotto-tda-688a44c00f59  <br />
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7753013/ <br />
+https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.102.7885 <br />
+https://github.com/giesekow/deepvesselnet/wiki/Datasets  <br />
+https://www.frontiersin.org/articles/10.3389/fnins.2020.592352/full  <br />
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6472360/  <br />
+https://physionet.org/content/ct-ich/1.3.1/ <br />
+https://www.semanticscholar.org/paper/PERSISTENT-HOMOLOGY-ANALYSIS-OF-BRAIN-S.-Marron/d4f95f114dd8b0333fa1c8754d36ebc4ffb1e52d#references <br />
+https://link.springer.com/article/10.1007/s12021-022-09597-0 <br />
+https://github.com/InsightSoftwareConsortium/ITKTubeTK <br /> 
+https://persim.scikit-tda.org/en/latest/notebooks/Differentiation%20with%20Persistence%20Landscapes.html. <br />
+https://arxiv.org/abs/1310.7467 <br />
+https://arxiv.org/abs/2204.13799 <br />
+https://arxiv.org/pdf/1501.00179.pdf 
+

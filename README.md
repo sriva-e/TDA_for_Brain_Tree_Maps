@@ -1,16 +1,16 @@
 # TDA_for_Brain_Tree_Maps
-Topological Data Analysis of Brain(Patient vs control)
+Topological Data Analysis of Brain (Patient vs. control)
 
-This project is dedicated to investigate if topology can help us better understand the brain tree maps, 
-the project is divided in two pipelines <br />
+This project is investigating if topology can help us better understand the brain tree maps, 
+the project is divided into two pipelines <br />
 --Data preprocessing (vessel segmentation)<br />
 --TDA pipeline(future work)<br />
 
-Notes on data preprocessing pipeline are as follows:<br/>
+Notes on the data preprocessing pipeline are as follows:<br/>
 DATASET: Lausanne_TOF-MRA_Aneurysm_Cohort(https://openneuro.org/datasets/ds003949/versions/1.0.1) <br />
          --code<br />
          --derivatives<br />
-          &nbsp; --N4_bias_field_corrected (files are located in anat folder which is inside ses folder which is inside sub folder)<br/>
+          &nbsp; --N4_bias_field_corrected (files are located in anat folder which is inside the ses folder which is inside subfolder)<br/>
           &ensp;  --sub folders<br/>
           &emsp;  --ses folders<br/>
            &emsp;   -- anat folders<br/>
@@ -18,23 +18,23 @@ DATASET: Lausanne_TOF-MRA_Aneurysm_Cohort(https://openneuro.org/datasets/ds00394
                 &emsp; --angio_N4bfc_mask.nii.gz<br/>
             &nbsp;--manual_masks</br>
           &nbsp; --registrations<br/>
-(outside derivates and code we have sub folders)<br/>
-        &nbsp; --sub folders (files are located in anat folder which is inside ses folder which is inside sub folder)<br/>
+(outside derivates and code we have subfolders)<br/>
+        &nbsp; --subfolders (files are located in anat folder which is inside the ses folder which is inside subfolder)<br/>
          &ensp;   --ses folders<br/>
             &emsp;   -- anat folders<br/>
              &emsp;    -- _T1w.nii.gz<br/>
               &emsp;   -- _angio.nii.gz<br/>
 
-PIPELINE INFO : RUN THESE 3 STEPS FOR EACH CASE TO GET .tre FILE FOR ALL THE CASES IN THE DATA <br/>
+PIPELINE INFO: RUN THESE 3 STEPS FOR EACH CASE TO GET .tre FILE FOR ALL THE CASES IN THE DATA <br/>
 
 Segment Brain from MRIs<br/>
                      &emsp;   &emsp; Input in our program<br/>
                                   &emsp;              (these images need to be in .mha format)<br/>
 takes: <br/>
-       -- mra.mha    &ensp;              =     &ensp;        -- _N4_bfc_mask.nii.gz file  (loacted in sub folders of N4_bfc)                       |      <br/> 
-       --mri_t1_sag.mha     &ensp;       =     &ensp;        -- _T1w.nii.gz file  (loacted in sub folders outside code and derivatives folder)     | <br/>
-      --Normal-FLASH.mha     &ensp;     =    &ensp;         -- _ angio.nii.gz file (loacted in sub folders outside code and derivatives folder) __|<br/>
-      --Normal-FLASH-Brain.mha &ensp;   =     &ensp;        -- angio_N4bfc_brain_mask.nii.gz (loacted in sub folders in N4_bias_field_corrected folder) <br/>
+       -- mra.mha    &ensp;              =     &ensp;        -- _N4_bfc_mask.nii.gz file  (located in subfolders of N4_bfc)                       |      <br/> 
+       --mri_t1_sag.mha     &ensp;       =     &ensp;        -- _T1w.nii.gz file  (located in subfolders outside code and derivatives folder)     | <br/>
+      --Normal-FLASH.mha     &ensp;     =    &ensp;         -- _ angio.nii.gz file (located in subfolders outside code and derivatives folder) __|<br/>
+      --Normal-FLASH-Brain.mha &ensp;   =     &ensp;        -- angio_N4bfc_brain_mask.nii.gz (located in subfolders in N4_bias_field_corrected folder) <br/>
 
 
 Output<br/>
@@ -67,7 +67,7 @@ output: <br/>
  This is what the final output will look like: <br/>
  ![alt text](https://github.com/sriva-e/TDA_for_Brain_Tree_Maps/blob/main/segmented_vessels.png)<br/>
  
- These brain vessels are interpreted as topological structure, we then use Persistent Homology to analyse these netwrorks, <br/>
+ These brain vessels are interpreted as topological structures, we then use Persistent Homology to analyze these netwrorks, <br/>
  Following is a persistence diagram of one of the brains: <br/>
 ![alt text](https://github.com/sriva-e/TDA_for_Brain_Tree_Maps/blob/main/Persistence%20diagram.png)
  

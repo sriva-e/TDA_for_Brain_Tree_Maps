@@ -1,5 +1,5 @@
 # TDA_for_Brain_Tree_Maps
-Topological Data Analysis of Brain (Patient vs. control)
+Topological Data Analysis of MRA Scans Brain Images (Patient vs. control)
 
 This project is investigating if topology can help us better understand the brain tree maps, 
 the project is divided into two pipelines <br />
